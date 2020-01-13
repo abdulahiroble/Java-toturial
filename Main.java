@@ -3,14 +3,15 @@ public class Main {
     public static void main(String[] args) {
         Dog tim = new Dog("abdu", 21);
         Dog hej = new Dog("seje", 3);
+        Cat simba = new Cat("simba", 3, 10);
+        Cat bob = new Cat("bob", 7);
+        Cat sai = new Cat("Sai");
 
-        tim.speak();
+        bob.speak();
+        sai.speak();
+        simba.speak();
         hej.speak();
-
-        // int x = tim.getAge();
-        tim.setAge(10);
         tim.speak();
-
     }
 
     public static void tim(int x, String str) {

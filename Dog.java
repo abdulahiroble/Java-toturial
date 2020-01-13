@@ -1,8 +1,8 @@
 public class Dog {
 
     // attributes
-    private String name;
-    private int age;
+    public String name;
+    public int age;
 
     public Dog(String name, int age) {
         this.name = name;
