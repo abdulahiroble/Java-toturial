@@ -1,30 +1,29 @@
 public class Dog {
 
+    protected static int count = 0;
+
     // attributes
-    private String name;
-    private int age;
+    protected String name;
+    protected int age;
 
     public Dog(String name, int age) {
         this.name = name;
         this.age = age;
-        add2();
+        Dog.count += 1;
+
+        // Part of the instance
+        // this.display2();
+
+        Dog.display();
     }
 
-    // constructors
-    public void speak() {
-        System.out.println("I am " + this.name + " and i am " + this.age + " years old");
+    // regular method
+    public void display2() {
+        System.out.println("I am a Cat");
     }
 
-    public int getAge() {
-        return this.age;
+    // static method
+    public static void display() {
+        System.out.println("I am a dog");
     }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    private int add2() {
-        return this.age + 2;
-    }
-
 }
