@@ -1,18 +1,15 @@
 public class Main {
 
     public static void main(String[] args) {
-        // method if the inner class is private
-        // OuterClass out = new OuterClass();
-        // out.inner();
+        // Car ford = new Car();
+        // ford.slowDown(10);
+        // ford.changeGear(2);
+        // ford.display();
 
-        // Method if the inner class is public
-        // OuterClass out = new OuterClass();
-        // OuterClass.InnerClass in = out.new InnerClass();
-        // in.display();
+        int x = Vehicle.math(5);
+        int y = Math.sqrt(6);
 
-        OuterClass out = new OuterClass();
-        out.inner();
-
-        System.out.println();
+        System.out.println(x);
+        System.out.println(y);
     }
 }
