@@ -1,30 +1,28 @@
 public class Main {
 
     public static void main(String[] args) {
-        Dog tim = new Dog("abdu", 21);
-        Dog hej = new Dog("seje", 3);
+        Level lvl = Level.HIGH;
 
-        tim.speak();
-        hej.speak();
+        lvl.setLv(5);
+        System.out.println(lvl.getLv());
 
-        // int x = tim.getAge();
-        tim.setAge(10);
-        tim.speak();
+        // System.out.println(lvl.getLv());
 
-    }
+        // Level lvl = Level.HIGH;
+        // Level[] arr = Level.values();
 
-    public static void tim(int x, String str) {
-        for (int i = 0; i < x; i++) {
-            System.out.println(str);
-        }
-    }
+        // for (Level level : arr) {
+        // System.out.println(level);
+        // }
 
-    public static int add2(int x) {
-        return x + 2;
-    }
+        // if (lvl == Level.HIGH) {
+        // System.out.println(lvl);
+        // } else if (lvl == Level.LOW) {
+        // System.out.println(lvl);
+        // } else {
+        // System.out.println(lvl);
+        // }
 
-    public static String str(String x) {
-        return x + "!";
     }
 
 }
