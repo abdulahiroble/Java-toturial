@@ -1,9 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-        Dog tim = new Dog("tim", 9);
-        Dog bob = new Dog("bob", 10);
+        Student joe = new Student("Joe");
+        Student bill = new Student("Bill");
+        Student tim = new Student("Tim");
 
-        System.out.println(Dog.count);
+        System.out.println(tim.toString());
     }
 }
